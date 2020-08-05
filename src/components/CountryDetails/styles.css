@@ -1,0 +1,17 @@
+.country-details {
+    width: 50%;
+    /* border: 1px solid #0b19686e; */
+    border-radius: 6px;
+    height: auto;
+    margin-top: 2rem;
+    padding: 1rem 1rem 2rem 0;
+}
+
+.country-details span {
+    font-size: 1.4rem;
+}
+
+.country-details img {
+    width: 2rem;
+    height: auto;
+}

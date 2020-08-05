@@ -1,0 +1,36 @@
+input {
+    width: 20rem;
+    height: 2rem;
+    border-radius: 6px;
+    border: 1px solid #0b19686e;
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+.country-input {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.search {
+    border-radius: 6px;
+    width: auto;
+    height: 2.2rem;
+    font-size: 1rem;
+    font-weight: 800;
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    color: #F8D7DC;
+    background: #0B1968;
+    border: none;
+}
+
+.search:hover {
+    background: hsla(231, 81%, 23%, 0.8);
+}
+
+.alert {
+    color: red;
+}

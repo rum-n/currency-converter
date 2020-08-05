@@ -1,0 +1,11 @@
+.main {
+    width: 60rem;
+    margin: 5rem auto;
+}
+
+.title {
+    color: #0B1968;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+}
