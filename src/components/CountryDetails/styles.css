@@ -25,6 +25,7 @@
 
 .country-details img {
     width: 20%;
+    margin: 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -33,6 +34,6 @@
         text-align: right;
     }
     .country-details {
-        width: 100%;
+        width: 80%;
     }
 }
