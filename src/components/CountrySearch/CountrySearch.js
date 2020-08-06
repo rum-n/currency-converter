@@ -23,7 +23,6 @@ function CountrySearch() {
             setQuery('');
             setAlert('');
             setCurrency(countryJSON[0].currencies[0].code);
-            console.log(country);
         } else {
             setAlert('Please submit a country');
         }
@@ -43,7 +42,6 @@ function CountrySearch() {
         const res = await fetch(currencyUrl);
         const currencyJSON = await res.json();
         setConvertedCurrency(currencyJSON.result);
-        console.log(convertedCurrency);
     };
 
     const onCurrencyChange = e => setCurrencyQuery(e.target.value);
