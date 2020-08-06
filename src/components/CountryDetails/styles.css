@@ -29,7 +29,10 @@
 @media only screen and (max-width: 600px) {
     .country-header h2 {
         font-size: 2rem;
-        text-align: right;
+        text-align: left;
+    }
+    .country-header {
+        flex-direction: column;
     }
     .country-details {
         width: 100%;
