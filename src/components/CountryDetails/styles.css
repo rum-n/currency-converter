@@ -1,8 +1,8 @@
 .country-details {
     width: 50%;
-    height: auto;
     margin-top: 2rem;
     padding: 1rem 0;
+    height: 3rem;
 }
 
 .country-header {
@@ -25,7 +25,6 @@
 
 .country-details img {
     width: 20%;
-    margin: 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -34,6 +33,6 @@
         text-align: right;
     }
     .country-details {
-        width: 80%;
+        width: 100%;
     }
 }
