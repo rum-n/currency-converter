@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './styles.css';
 import Alert from '../Alert';
 import CountryDetails from './../CountryDetails/CountryDetails';
-// import ConvertCurrency from '../ConvertCurrency/ConvertCurrency';
 
 function CountrySearch() {
     const [query, setQuery] = useState('');
@@ -76,8 +75,7 @@ function CountrySearch() {
             currency={currency}
         />}
 
-        { country && (
-            <div>
+        { country && (<div>
                 <h2>Convert SEK to {currency}</h2>
                 <form onSubmit={onCurrencySubmit} className='country-input'> 
                     <input 
@@ -90,8 +88,7 @@ function CountrySearch() {
                     <input className='search' value='Convert' type='submit'/>
                 </form>
             { convertedCurrency && <h2>{currencyQuery} SEK = {convertedCurrency} {currency}</h2>}
-            </div> 
-        )}
+            </div>)}
     </div>
   );
 }
