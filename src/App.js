@@ -1,13 +1,16 @@
 import React from 'react';
 import Home from './pages/Home';
 import Footer from './components/footer/Footer';
+// import { CountryProvider } from './components/CountryContext';
 
 function App() {
   return (
-    <div>
-      <Home/>
-      <Footer/>
-    </div>
+    // <CountryProvider>
+      <div>
+        <Home/>
+        <Footer/>
+      </div>
+    // </CountryProvider>
   );
 }
 
