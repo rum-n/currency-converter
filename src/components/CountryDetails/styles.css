@@ -2,7 +2,6 @@
     width: 50%;
     margin-top: 2rem;
     padding: 1rem 0;
-    height: 3rem;
 }
 
 .country-header {
@@ -24,7 +23,7 @@
 }
 
 .country-details img {
-    width: 20%;
+    width: 5rem;
 }
 
 @media only screen and (max-width: 600px) {
